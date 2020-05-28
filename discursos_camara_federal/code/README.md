@@ -1,6 +1,3 @@
-# politics_analytics
-Repositório para fazer análise na área política como, análise de discursos, gastos das verbas públicas, doações etc.
-
 # Discursos na Camâra dos Deputados Federais
 
 ## Breve descrição da metodologia
@@ -21,10 +18,7 @@ Devem ser executados na seguinte ordem:
 
 2. `pega-pronunciamentos-html.ipynb`: Usa o csv gerados em `pega-links` para extrair, via BeautifulSoup, os pronunciamentos para os quais existem conteúdo em HTML. Também há a opção de salvar PDFs para pronunciamentos que não foram transcritos, ainda.
 
-3. `parseia-json.ipynb`: Usa o arquivo com os discursos. Transforma esses dados em um arquivo .json para gerar as visualizações de dados.
-
-4. `formata-texto.ipynb`: Acessa os arquivos .txt gerados em `pega-pronunciamentos-html` e salva em `CSV`.
-
+3. `parseia-json.ipynb`: Usa o arquivo com os discursos **já checado manualmente**. Transforma esses dados em um arquivo .json para gerar as visualizações de dados.
 
 ### Diretório `data`
 
@@ -35,7 +29,7 @@ Devem ser executados na seguinte ordem:
 `csvs`: Diversos csvs gerados ao longo do fluxo de trabalho são salvos aqui, a saber: 
 
   - Os discursos formatados em `formata-texto`
+  - Os discrusos classificados por `buscador-da-ditadura`
 
 
-### Referência:
-	- Este script foi baseado no repositório do Estadão: https://github.com/estadao/bolsonaro-e-ditadura-no-congresso 
+### Este script foi baseado no repositório do Estadão: https://github.com/estadao/bolsonaro-e-ditadura-no-congresso 
