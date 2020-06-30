@@ -1,0 +1,48 @@
+==> BASES
+- https://www2.camara.leg.br/atividade-legislativa/discursos-e-notas-taquigraficas
+- https://dadosabertos.camara.leg.br/
+
+======================== Tipos de análises (resultados) ========================
+
+1 - análise de metadados
+	- média de qtd discurso 
+	- qtd de discurso por data (ano)
+	- TOP (%) partidos qtd de discurso
+	- DOWN (%) partidos qtd de discurso
+	- TOP (%) parlamentar qtd de discurso
+	- DOWN (%) parlamentar qtd de discurso
+	- média discurso por dia
+	- % discurso por dia
+	- % discurso por hora(turno)
+	- qtd discurso ano antes eleição, ano de eleição e ano após eleição
+
+2 - análise (quantitativa/qualitativa) textual discurso (TCC PÓS (anlisar se compensa))
+	- qtd palavras únicas
+	- análise de entidades (verificar se compensa)
+	- análise N-grams (1, 2 e 3) - barchart, wordcloud
+	- qtd palavras únicas por partido
+	- qtd palavras únicas por ano
+
+3 - Text Mining (TCC PÓS)
+	- agrupamento com base nos discursos (analisar a inserção de enriquecimento como, dia da semana, turno etc)
+	- grafos com os resultados do cluster 
+	- análise de tócios https://monkeylearn.com/topic-analysis/
+	- extração de texto http://help.monkeylearn.com/en/articles/2174069-what-is-extraction
+	- extração de palavras chaves https://monkeylearn.com/keyword-extractor-online/
+
+4 - Gastos (dep federal) (TCC PÓS)
+	- análise de clusterização dos gastos
+	- identificação de outlier dos gastos
+	- 
+
+5 - Cruzar análise textual com gastos
+	
+
+======================== ETAPAS ========================
+
+1 - Coleta dos dados
+	- web scraping dos discursos
+	- download csv dos gastos / API
+
+2 - Data Wraling
+	- 
